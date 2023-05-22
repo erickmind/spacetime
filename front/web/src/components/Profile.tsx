@@ -16,7 +16,7 @@ export function Profile() {
       <p className="max-w-[140x] text-sm leading-snug">
         {name}
         <a
-          href=""
+          href="/api/auth/logout"
           className="hover:text-red block text-red-400 hover:text-red-300"
         >
           Logout
